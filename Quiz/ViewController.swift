@@ -3,6 +3,7 @@
 //  Quiz
 //
 //  Created by Carly Raphan on 1/23/19.
+//             High Point University 
 //  Copyright © 2019 Carly Raphan. All rights reserved.
 //
 
@@ -17,14 +18,20 @@ class ViewController: UIViewController {
         "What is the captial of Vermont?",
         "What is cognac made from?",
         "Where is the Sahara Desert?",
-        "Who is on the five dollar bill?"
+        "Who is on the five dollar bill?",
+        "How many states are in the U.S.?",
+        "Who is our current President?",
+        "What is HPU's mascot?"
     ]
     let answers: [String] = [
         "14",
         "Montpelier",
         "Grapes",
         "Africa",
-        "Abraham Lincoln"
+        "Abraham Lincoln",
+        "50",
+        "President Donald Trump",
+        "Panther"
     ]
     var currentQuestionIndex: Int = 0
     

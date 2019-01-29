@@ -40,6 +40,7 @@
                         <constraints>
                             <constraint firstItem="FD4-k7-GFa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jDq-Ke-QsZ"/>
                             <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="p3m-fg-w7q"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uZO-f0-H6X"/>
                             <constraint firstItem="FD4-k7-GFa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uzr-Py-mbF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
