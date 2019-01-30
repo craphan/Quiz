@@ -29,7 +29,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Carly Raphan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-MG-OPK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carly Raphan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-MG-OPK">
                                 <rect key="frame" x="134" y="372" width="107" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -38,8 +38,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="0hD-rp-KLe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MHJ-MG-OPK" secondAttribute="bottom" constant="272" id="HBx-Fc-iKQ"/>
+                            <constraint firstItem="FD4-k7-GFa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="292.5" id="RZ6-R7-YFs"/>
                             <constraint firstItem="FD4-k7-GFa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jDq-Ke-QsZ"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ker-j6-w5Z"/>
                             <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="p3m-fg-w7q"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="rPW-Ao-y2X"/>
                             <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uZO-f0-H6X"/>
                             <constraint firstItem="FD4-k7-GFa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uzr-Py-mbF"/>
                         </constraints>
