@@ -38,15 +38,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="0hD-rp-KLe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MHJ-MG-OPK" secondAttribute="bottom" constant="272" id="HBx-Fc-iKQ"/>
-                            <constraint firstItem="FD4-k7-GFa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="292.5" id="RZ6-R7-YFs"/>
-                            <constraint firstItem="FD4-k7-GFa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jDq-Ke-QsZ"/>
-                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ker-j6-w5Z"/>
-                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="p3m-fg-w7q"/>
-                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="rPW-Ao-y2X"/>
-                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uZO-f0-H6X"/>
-                            <constraint firstItem="FD4-k7-GFa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uzr-Py-mbF"/>
+                            <constraint firstItem="FD4-k7-GFa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5SR-K7-bqS"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Hc5-XX-7eR"/>
+                            <constraint firstItem="FD4-k7-GFa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="J6e-hj-kts"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="LCJ-ff-wBq"/>
+                            <constraint firstItem="MHJ-MG-OPK" firstAttribute="top" secondItem="FD4-k7-GFa" secondAttribute="bottom" constant="17.5" id="ZzA-bf-pd4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

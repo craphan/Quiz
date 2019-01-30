@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh7-A0-Egz">
-                                <rect key="frame" x="138" y="205" width="98" height="30"/>
+                                <rect key="frame" x="138.5" y="205" width="98" height="30"/>
                                 <state key="normal" title="Next Question"/>
                                 <connections>
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4KK-SO-NDG"/>
@@ -44,8 +44,8 @@
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BR5-8R-eKi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Carly Raphan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY8-YY-mJR">
-                                <rect key="frame" x="136" y="579" width="102" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carly Raphan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY8-YY-mJR">
+                                <rect key="frame" x="136" y="593" width="102" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -61,11 +61,11 @@
                             <constraint firstItem="meh-by-HEq" firstAttribute="top" secondItem="ghO-zp-Cs0" secondAttribute="bottom" id="Naw-or-FXG"/>
                             <constraint firstItem="ghO-zp-Cs0" firstAttribute="top" secondItem="Wh7-A0-Egz" secondAttribute="bottom" constant="145" id="W7k-Pc-E7F"/>
                             <constraint firstItem="Wh7-A0-Egz" firstAttribute="top" secondItem="qve-94-sh8" secondAttribute="bottom" id="ZiP-q4-fqR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rY8-YY-mJR" secondAttribute="bottom" constant="111.5" id="dv2-py-OXm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rY8-YY-mJR" secondAttribute="bottom" constant="53.5" id="dv2-py-OXm"/>
                             <constraint firstItem="Wh7-A0-Egz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irs-8a-B0W"/>
-                            <constraint firstItem="rY8-YY-mJR" firstAttribute="top" secondItem="meh-by-HEq" secondAttribute="bottom" constant="104" id="oGz-dk-7fe"/>
+                            <constraint firstItem="rY8-YY-mJR" firstAttribute="top" secondItem="meh-by-HEq" secondAttribute="bottom" constant="162" id="oGz-dk-7fe"/>
                             <constraint firstItem="Wh7-A0-Egz" firstAttribute="top" secondItem="qve-94-sh8" secondAttribute="bottom" id="qNq-L9-lCC"/>
-                            <constraint firstItem="rY8-YY-mJR" firstAttribute="top" secondItem="meh-by-HEq" secondAttribute="bottom" constant="104" id="t7w-fo-IcI"/>
+                            <constraint firstItem="rY8-YY-mJR" firstAttribute="top" secondItem="meh-by-HEq" secondAttribute="bottom" constant="162" id="t7w-fo-IcI"/>
                             <constraint firstItem="rY8-YY-mJR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uQb-HA-sWf"/>
                             <constraint firstItem="Wh7-A0-Egz" firstAttribute="top" secondItem="qve-94-sh8" secondAttribute="bottom" id="w3O-hS-0y3"/>
                             <constraint firstItem="Wh7-A0-Egz" firstAttribute="top" secondItem="qve-94-sh8" secondAttribute="bottom" id="yHz-QD-O62"/>
